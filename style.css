@@ -1,0 +1,107 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+button {
+    display: block;
+    margin: 20px auto;
+    background: crimson;
+    color: white;
+    border: 0;
+    padding: 6px 10px;
+}
+.popup-wrapper {
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.popup {
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    margin: 10% auto;
+    padding: 20px;
+    background: white;
+    position: relative;
+}
+.popup a {
+    background: crimson;
+    color: white;
+    text-decoration: none;
+    padding: 6px 10px;
+}
+.popup-colse {
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    cursor: pointer;
+}
+h2 {
+    text-align: center;
+    display: block;
+    background: crimson;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.form-control {
+    width: 50% !important;
+}
+
+ul {
+    list-style: none;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+li {
+    background: #fff;
+    margin-top: 20px;
+    padding-left: 25px;
+}
+
+button {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+input.btn.btn-outline-secondary {
+    background: green;
+    border: none;
+    color: #fff;
+}
+
+
+.container.my-5 {
+    background: lightgrey;
+    width: 50%;
+    padding: 0;
+}
+form.add-books {
+    background: crimson !important;
+}
+
+.input-group {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+label {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+form.search-bar {
+    transform: translate(25%, 50%);
+}
+form.search-bar label {
+    color: #000;
+
+}
